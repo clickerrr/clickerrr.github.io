@@ -1,8 +1,33 @@
+@keyframes img-zoom {
+  from {width: 100%; height: auto;}
+  to {width: 120%; height:auto;}
+}
+
+
+
 #main {
 
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: rgb(46, 47, 47);
 
+}
+
+#whatido_photographyimg:hover {
+  overflow: hidden;
+  transform:scale(1.02);
+    -ms-transform:scale(1.02); /* IE 9 */
+    -moz-transform:scale(1.02); /* Firefox */
+    -webkit-transform:scale(1.02); /* Safari and Chrome */
+    -o-transform:scale(1.02); /* Opera */
+}
+
+#whatido_programmingimg:hover {
+  overflow: hidden;
+  transform:scale(1.02);
+    -ms-transform:scale(1.02); /* IE 9 */
+    -moz-transform:scale(1.02); /* Firefox */
+    -webkit-transform:scale(1.02); /* Safari and Chrome */
+    -o-transform:scale(1.02); /* Opera */
 }
 
 #top_title
