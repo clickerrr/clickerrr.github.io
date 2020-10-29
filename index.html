@@ -1,12 +1,15 @@
 <!doctype html>
 <html>
 <head>
-  <title>Pressure Washing Website</title>
+  <title>Bartek Swiech | My Portfolio</title>
 
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
@@ -15,84 +18,94 @@
 <body id="main">
 
 
-  <!-- Logo that sits atop page, also acts as a home button -->
-  <nav class="navbar navbar-static-top navbar-expand-lg navbar-expand-sm navbar-dark bg-dark">
-    <img class="img-fluid" height=8% width=8% src="logo-template.jpg" href="index.html">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="order.html">Order</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"  href="location.html">Location</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.html">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-      </ul>
+
+
+  <div class="container-fluid border-bottom border-dark">
+    <div class="row" style=" background-image: url('images/top-titleimage.JPG'); " >
+
+      <div class="col-lg-12 col-md-12 col-sm-12" style="color: white; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; margin-top: 10%; margin-bottom: 10%">
+
+        <h1 class="animate__animated animate__slideInLeft " style="font-weight: bold; font-size: 80px; ">
+          My Portfolio
+        </h1>
+        <h2 class="animate__animated animate__slideInLeft animate__slower" style="font-size: 50px; ">
+          Bartek Swiech
+        </h2>
+
+      </div>
+
     </div>
-  </nav>
+  </div>
+
+  <div class="container">
 
 
-  <!-- Photo Container -->
-  <div class="container" id="bottom-container">
+    <div class="row mt-5 p-5 rounded" style="background-color: RGB(5, 16, 20)">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img class="img-fluid" src="images/whoami/image2.jpg" />
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 text-white">
+        <h1 class="mb-5">
+          <center>
+            Who Am I?
+          </center>
+        </h1>
+
+        <center>
+          <p style="font-size: 25px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </center>
+
+      </div>
+
+    </div>
 
 
-    <div class="row">
-      <div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <div class="card">
-          <img src="beforeandafter.jpg" width=100% height=auto>
+  <hr />
+
+
+  <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <center>
+          <h1 class="text-white">What I Do</h1>
+        </center>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="images/whatido/programming.jpg" />
+            <div class="card-body">
+              <h2 class="card-title">Programming</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
         </div>
-
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-        <div class="p-5 bg-light">
-          <center><h2>Our Services</h2></center>
-          <ul class="list-group">
-            <li class="list-group-item">Service One</li>
-            <li class="list-group-item">Service Two</li>
-            <li class="list-group-item">Service Three</li>
-          </ul>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="images/whatido/photography.jpg"  />
+            <div class="card-body">
+              <h2 class="card-title">Photography</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="p-5 mt-5 bg-light col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <center><h2>Why Pick Us?</h2></center>
-        <p class="text-center">
-          Sed lacus nibh, imperdiet vitae pulvinar quis, aliquam at justo. Quisque a libero ut enim suscipit pellentesque vel et dui. In sem justo, luctus eget risus a, iaculis sagittis lacus. Suspendisse feugiat ex nunc. Mauris facilisis dictum eros sit amet pulvinar. Curabitur turpis ipsum, laoreet ut dapibus eget, ornare in nisl. Nam blandit est sed ex sodales scelerisque. Vivamus feugiat id nisi in sodales. Etiam finibus est eu sem egestas rhoncus. Maecenas porta, sem ut scelerisque mattis, ante nisi dictum orci, non consequat mi lacus nec velit. Curabitur convallis vulputate neque, eu varius nisi aliquet non.
-        </p>
-      </div>
+    <div class="row mb-5">
+
     </div>
+
+
 
   </div>
 
 
-  <footer class="footer fixed-bottom bg-dark text-dark">
-    <div class="container-fluid p-3 p-md-5">
-      <center>
-        <p class="text-white">Check Out Our Social Media Accounts</p>
-        <div class="row">
-          <div class="btn-group">
-            <a href="https://www.twitter.com" class="btn-sm" target="_blank" role="button"><img id="footer-icons" src="twitter.webp" height=auto width=2%></a>
-            <a href="https://www.instagram.com" class="btn-sm" target="_blank" role="button"><img id="footer-icons" src="instagram.png" height=auto width=2%></a>
-            <a href="https://www.facebook.com" class="btn-sm" target="_blank" role="button"><img id="footer-icons" src="facebook.png" height=auto width=2%></a>
-          </div>
-        </div>
-      </center>
-    </div>
-  </footer>
 
 
 
