@@ -14,3 +14,23 @@
   margin-top: -2%;
 
 }
+
+/* unvisited link */
+#photography_image_link:link {
+color: rgb(57,51,51);
+}
+
+/* visited link */
+#photography_image_link:visited {
+color: rgb(57,51,51);
+}
+
+#photography_image_link:hover {
+color: rgb(57,51,51);
+text-decoration: none;
+}
+
+/* selected link */
+#photography_image_link:active {
+color: rgb(57,51,51);
+}
